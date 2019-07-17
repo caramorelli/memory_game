@@ -1,0 +1,85 @@
+
+/*
+
+BUNKER            #25282B      RGB: 37,40,43
+BALTIC SEA        #363B3F      RGB: 54,59,63
+
+PERSIAN_INDIGO    #360568      RGB: 54,5,104
+KINGFISHER DAISY  #5B2A86      RGB: 91,42,134
+SHIP COVE         #7785AC      RGB: 119,133,172
+MORNING GLORY     #9AC6C5      RGB: 154,198,197
+FRINGY FLOWER     #A5E6BA      RGB: 165,230,186
+
+
+
+BLACK_RUSSIAN     #1E1F26      RGB: 30,31,38
+MADISON           #283655      RGB: 40,54,85
+KASHMIR_BLUE      #4D648D      RGB: 77,100,141
+HAWKES_BLUE       #D0E1F9      RGB: 208,225,249
+#6681ea
+
+MELANZANE         #211F20      RGB: 33,31,32
+MEDIUM ORCHARD    #CC41FF      RGB: 204,65,255
+SELECTIVE_YELLOW  #FFB20A      RGB: 255,178,10
+QUARTZ            #D3D3D5      RGB: 211,211,213
+
+#2D383A
+#22424e
+#0b6d70
+#004242
+#004E78
+#004e78
+#002940
+
+
+
+
+#D29B6C
+#A6A9A9
+#9FD2CB
+#263147
+#F4B9A9
+
+#A4FED9
+#96DBCC
+#B54680
+#55534D
+#BB5D29
+#BDA14E
+
+
+#C8A293
+#DFC2C3
+#55534D
+#6E4E60
+#9D9A92
+
+
+#006D50
+#C2C2C2
+#B8A26C
+#EEECE7
+#C6CEC3
+
+
+#D3B7D8
+#A13E97
+PALATINATE_PURPLE #632A7E RGB: 90,23,88
+#5A1758
+BLACK_CURRANT #280E3B RGB: 40,14,59
+*/
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('./components/stylesheets/wood.png');
+  background-color: #1E1F26;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

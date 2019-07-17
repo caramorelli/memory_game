@@ -1,0 +1,149 @@
+/*
+
+font-family: 'Cormorant Upright', serif;
+font-family: 'Uncial Antiqua', cursive;
+font-family: 'Amarante', cursive;
+font-family: 'Fondamento', cursive;
+font-family: 'Charm', cursive;
+font-family: 'Eagle Lake', cursive;
+
+*/
+
+
+
+/*
+
+BUNKER            #25282B      RGB: 37,40,43
+BALTIC SEA        #363B3F      RGB: 54,59,63
+
+PERSIAN_INDIGO    #360568      RGB: 54,5,104
+KINGFISHER DAISY  #5B2A86      RGB: 91,42,134
+
+#A4893D     RGB: 164, 137, 61
+#C5B358     RGB: 197, 179, 88
+
+#2C365E   RGB: 44, 54, 94
+#22252C   RGB: 34, 37, 44
+#542c5e
+#E3E8FE
+
+
+#A891FB
+#0E8BD3
+*/
+
+
+.board-component {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 6% 94%;
+}
+
+.board-nav {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: inline-flex;
+}
+
+
+.menu-link {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 5px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: #0E8BD3;
+  font-family: 'Amarante', cursive;
+}
+.arrow {
+  height: 30px;
+  width: 20px
+}
+
+
+
+.board-container {
+  display: grid;
+  grid-template-columns: repeat(7, 150px);
+  grid-column-gap: 5px;
+  grid-template-rows: auto;
+  grid-row-gap: 5px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+
+.card {
+  height: 200px;
+  width: 150px;
+}
+
+.winner-container {
+  padding: 1%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top:0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+/* #E3E8FE
+
+#C5B358
+#A891FB
+#0E8BD3 */
+
+.winner-box {
+  margin-top: 30%;
+  padding: 3%;
+  background-image: linear-gradient(#25282B, #360568);
+  background-color: #25282B;
+  border: 3px outset #C5B358;
+  height: 50%;
+  width: 100%;
+}
+
+.winner-box h1 {
+  color: #E3E8FE;
+  font-size: 25px;
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+.winner-box h3 {
+  color: #E3E8FE;
+  font-size: 18px;
+  font-family: 'Fondamento', cursive;
+}
+
+.btn-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  justify-content: center;
+  vertical-align: middle;
+  align-items: center;
+  text-align: center;
+}
+
+.winner-btn {
+  background-image: linear-gradient(#0E8BD3, #E3E8FE);
+  background-color: #0E8BD3;
+  color: #25282B;
+
+  height: 100px;
+  width: 200px;
+}
+
+.winner-link {
+  text-decoration: none;
+}

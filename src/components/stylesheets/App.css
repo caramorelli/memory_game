@@ -1,0 +1,43 @@
+/*
+
+font-family: 'Cormorant Upright', serif;
+font-family: 'Uncial Antiqua', cursive;
+font-family: 'Amarante', cursive;
+font-family: 'Fondamento', cursive;
+font-family: 'Charm', cursive;
+font-family: 'Eagle Lake', cursive;
+
+*/
+
+
+
+/*
+
+BUNKER            #25282B      RGB: 37,40,43
+BALTIC SEA        #363B3F      RGB: 54,59,63
+
+PERSIAN_INDIGO    #360568      RGB: 54,5,104
+KINGFISHER DAISY  #5B2A86      RGB: 91,42,134
+
+#B39D5A
+#2C365E   RGB: 44, 54, 94
+#22252C   RGB: 34, 37, 44
+#542c5e
+#E3E8FE
+
+#F9C54B
+#A891FB
+#0E8BD3
+*/
+
+
+.app-container {
+  text-align: center;
+}
+
+.game-header {
+  color: #4B2E82;
+  text-shadow: 2px 2px 8px #FADA5E, -2px -2px 8px #FADA5E;
+  font-size: 35px;
+  font-family: 'Uncial Antiqua', cursive;
+}
